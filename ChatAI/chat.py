@@ -12,7 +12,9 @@ def chat_with_bot(user_input):
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=user_input,
-        max_tokens=50
+        max_tokens=2048,
+        n=1,
+        temperature=.5
     )
     return response.choices[0].text.strip()
 
