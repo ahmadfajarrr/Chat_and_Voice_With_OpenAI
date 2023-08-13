@@ -15,7 +15,7 @@ This program is a simple English chat application using the OpenAI API and PyQt5
 
    ```bash
    git clone https://github.com/ahmadfajarrr/Chat_and_Voice_With_OpenAI.git
-   cd english-chat-app
+   cd Learning_English
    ```
 
 2. Install the required dependencies using pip:
@@ -46,5 +46,9 @@ The program will open a GUI window where you can type messages in the prompt box
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
+
+## Example
+
+![sample](example.png)
 
 
